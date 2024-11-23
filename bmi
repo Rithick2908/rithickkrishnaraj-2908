@@ -1,0 +1,9 @@
+#include<stdio.h>
+void main(){
+    int w;
+    double h,bmi;
+    printf("Enter weight and height in metres:");
+    scanf("%d\n%lf",&w,&h);
+    bmi=w/(h*h);
+    printf("%lf is the bmi",bmi);
+}
