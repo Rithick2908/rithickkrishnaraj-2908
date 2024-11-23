@@ -1,0 +1,11 @@
+#include<stdio.h>
+void main(){
+    int r;
+    double area,circumference;
+    printf("Enter the radius:");
+    scanf("%d",&r);
+    area=3.14*r*r;
+    circumference=2*3.14*r;
+    printf("The area is%lf\n",area);
+    printf("The circumference is %lf",circumference);
+}
