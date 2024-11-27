@@ -1,0 +1,12 @@
+#include<stdio.h>
+void main()
+{
+    int n,sum;
+    printf("Enter nth term:");
+    scanf("%d",&n);
+    for(int i=0;i<=n;i++)
+    {
+        sum+=i;
+    }
+    printf("%d is the total sum",sum);
+}
