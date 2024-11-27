@@ -1,0 +1,15 @@
+ #include<stdio.h>
+ void main()
+ {
+     int x=108,y;
+     printf("Enter the number of rows in the bus:\n");
+     scanf("%d",y);
+     if(x%y==0)
+     {
+         printf("The number of seats in each row are:%d",x/y);
+     }
+     else
+     {
+         printf("You messed up real bad.");
+     }
+ }
