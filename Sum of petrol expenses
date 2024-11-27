@@ -1,0 +1,11 @@
+#include<stdio.h>
+void main(){
+    int x,y;
+    printf("Enter dollars spent on wednesday:");
+    scanf("%d\n",&x);
+    printf("Enter extra dollars spent on thursday:");
+    scanf("%d\n",&y);
+    int sum;
+    sum=2*x+y;
+    printf("%d is the total spent",sum);
+}
