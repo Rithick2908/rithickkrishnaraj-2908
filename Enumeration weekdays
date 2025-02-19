@@ -1,0 +1,27 @@
+#include<stdio.h>
+enum weeks {Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday};
+void main()
+{
+    enum weeks w;
+    switch(w)
+    {
+    case 0:
+    printf("0\t");
+    case 1:
+    printf("1\t");
+    case 2:
+    printf("2\t");
+    case 3:
+    printf("3\t");
+    case 4:
+    printf("4\t");
+    case 5:
+    printf("5\t");
+    case 6:
+    printf("6\t");
+    }
+}
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Output:
+0	1	2	3	4	5	6	
+
